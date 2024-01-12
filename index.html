@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>  Registration Form </title>
+        <link rel="stylesheet" href="assets/css/External/all.min.css">
+        <link rel="stylesheet" href="assets/css/styel.css">
+    </head>
+    <body>
+
+
+
+        <div class="login-wrap">
+            <div class="login-html">
+              <div class="login-form">
+                <h1>Registration </h1>
+                  <div class="group">
+                    <label for="input" class="label">Username</label>
+                    <input id="user" type="text" class="input">
+                  </div>
+                  <div class="group">
+                    <label for="email" class="label">Email</label>
+                    <input id="email" type="text" class="input">
+                  </div>
+                  <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" class="input" data-type="password">
+                  </div>
+                  <div class="group">
+                    <input id="btn" type="submit" class="button" value="Sign In">
+                  </div>
+                  <div class="group">
+                    <input id="clearbtn" type="submit" class="button" value="clear">
+                    <br>
+                    <!-- Add a div for error messages -->
+                  <div id="errorMsg" class="error-msg"></div>
+
+
+                  </div>
+                <div class="sign-up-htm">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+
+          <!-- Data table  -->
+
+    <div class="userData">
+     <table class="tableData" >
+            <thead >
+                 <th>Username  </th>
+                 <th>Email</th>
+                 <th> Password</th>
+            </thead>
+            <tbody id="res"></tbody>   
+    </table>
+    </div>
+
+        </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Script  -->
+        <script src="script.js"></script>
+        
+    </body>
+</html>
